@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Pet Get</title>
+    <script type="text/javascript" src="/vendors/angular.min.js"></script>
+    <script type="text/javascript" src="/vendors/angular-route.min.js"></script>
+    <script type="text/javascript" src="/scripts/app.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/dogController.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/pigController.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/catController.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+<h1>Pet Get</h1>
+<div>
+        <ul class="nav">
+            <li><a href="#dogs">DOGS</a></li>
+            <li><a href="#cats">CATS</a></li>
+            <li><a href="#pigs">PIGS</a></li>
+        </ul>
+    </div>
+</div>
+<main ng-view></main>
+
+</body>
+</html>

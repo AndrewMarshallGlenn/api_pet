@@ -1,0 +1,36 @@
+h1{
+    margin: auto;
+    width: 33%;
+    font-size: 50px;
+    color: maroon;
+}
+li{
+    display: inline;
+}
+.nav{
+    list-style-type: none;
+    margin: auto;
+    width: 33%;
+}
+a{
+    color: green;
+}
+a:hover{
+    color: firebrick;
+}
+body{
+    background-color: lightgray;
+    padding: 5% 15% 5% 15%;
+    border: dashed;
+    margin: 5%
+}
+img{
+
+}
+h2{
+    color: orangered;
+    font-size: 24px;
+    margin: auto;
+    width: 20%;
+    padding-top: 30px;
+}
